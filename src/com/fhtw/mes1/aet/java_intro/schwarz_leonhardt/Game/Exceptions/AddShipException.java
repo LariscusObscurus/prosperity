@@ -1,7 +1,8 @@
 package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Exceptions;
 
 /**
- * Created by leonhardt on 17.08.15.
+ * @author Leonhardt Schwarz <es15m009@technikum-wien.at>
+ * @since 17.08.15
  */
 public class AddShipException extends Exception {
     public AddShipException() {

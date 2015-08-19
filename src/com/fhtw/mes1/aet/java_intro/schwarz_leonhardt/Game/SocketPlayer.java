@@ -1,12 +1,18 @@
 package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game;
 
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.AbstractClasses.Player;
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.ValueObjects.Coordinate;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.DataTypes.Coordinate;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Interfaces.IGameObserver;
 
 /**
- * Created by leonhardt on 18.08.15.
+ * @author Leonhardt Schwarz <es15m009@technikum-wien.at>
+ * @since 18.08.15
  */
 public class SocketPlayer extends Player {
+
+    public SocketPlayer(String name) {
+        super(name);
+    }
 
     @Override
     public Coordinate nextGuess() {
@@ -25,6 +31,16 @@ public class SocketPlayer extends Player {
 
     @Override
     public void notifyVictory(Coordinate coordinate) {
+
+    }
+
+    @Override
+    public void notifyKill(Coordinate coordinate) {
+
+    }
+
+    @Override
+    public void addObserver(IGameObserver observer) {
 
     }
 }

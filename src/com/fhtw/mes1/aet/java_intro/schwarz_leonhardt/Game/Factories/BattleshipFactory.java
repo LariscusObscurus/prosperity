@@ -1,18 +1,19 @@
 package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Factories;
 
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.AbstractClasses.BattleShip;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.DataTypes.Coordinate;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Exceptions.AddShipException;
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.ValueObjects.Coordinate;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.XYLengthBattleShip;
 
 import java.util.List;
 
 /**
- * Created by leonhardt on 18.08.15.
+ * @author Leonhardt Schwarz <es15m009@technikum-wien.at>
+ * @since 18.08.15
  */
 public class BattleshipFactory {
 
-    public BattleShip getBattleship(String shipType, List<Integer> typeParams) throws AddShipException {
+    public static BattleShip getBattleship(String shipType, List<Integer> typeParams) throws AddShipException {
         switch (shipType) {
             case "xy_length_battleship":
                 if (typeParams.size() != 4)
@@ -25,7 +26,6 @@ public class BattleshipFactory {
                 } catch (IndexOutOfBoundsException ex) {
                     throw new AddShipException("Config most likely malformed!", ex);
                 }
-                break;
             default:
                 throw new AddShipException("Unknown ship type.");
         }
