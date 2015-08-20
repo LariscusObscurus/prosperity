@@ -1,7 +1,6 @@
 package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt;
 
 
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.ConsolePlayer;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Exceptions.AddShipException;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Factories.PlayerFactory;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Game;

@@ -7,8 +7,6 @@ import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Exceptions.AddShipExc
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Observable;
-import java.util.Observer;
 
 /**
  * @author Leonhardt Schwarz <es15m009@technikum-wien.at>
@@ -39,22 +37,29 @@ public class BattleField {
     }
 
     public boolean isHit(Coordinate coordinate) {
-        if (allShipsDestroyed()) {
-            player.notifyVictory(coordinate);
-            return false;
-        }
         BattleShip ship = ships.get(coordinate);
         if (ship == null) {
             player.notifyMissed(coordinate);
             return false;
         }
+
         boolean hit = ship.isHit(coordinate);
-        if (hit) {
+
+        if (ship.isDestroyed()) {
+            ships.remove(coordinate);
+
+            if (allShipsDestroyed()) {
+                player.notifyVictory(coordinate);
+                return false;
+            }
+
+            player.notifyKill(coordinate);
+
+        } else if (hit) {
             ships.remove(coordinate);
             player.notifyHit(coordinate);
         }
-        if (hit && ship.isDestroyed())
-            player.notifyKill(coordinate);
+
         return hit;
     }
 

@@ -37,8 +37,10 @@ public class BattleShipHealthTracker {
      * @return True if the ship was successfully damaged
      */
     public boolean isHit(Coordinate coordinate) {
-        if (!lazyLoading) //Lazy loading so lengthX and Y make sense as members in XYLengthBattleShip
+        if (!lazyLoading) { //Lazy loading so lengthX and Y make sense as members in XYLengthBattleShip
             this.coordinateList = ship.getCoordinateList();
+            lazyLoading = true;
+        }
 
         if (coordinateList == null)
             return false;

@@ -4,11 +4,9 @@ import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.AbstractClasses.Battl
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.AbstractClasses.Player;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.BattleField;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.ConsolePlayer;
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.DataTypes.Coordinate;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Exceptions.AddShipException;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -27,7 +25,7 @@ public class PlayerFactory {
                 counter++;
                 Player rv = new ConsolePlayer(name);
                 BattleField battleField = new BattleField(rv, 7);
-                List<Integer> params = Arrays.asList(2,2,3,1);
+                List<Integer> params = Arrays.asList(2,2,1,1);
                 BattleShip battleShip = BattleshipFactory.getBattleship("xy_length_battleship", params);
                 battleField.addShip(battleShip.getStartCoordinate(), battleShip);
                 rv.setBattleField(battleField);

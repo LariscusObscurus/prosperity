@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="asg.cliche">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/asg.cliche.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

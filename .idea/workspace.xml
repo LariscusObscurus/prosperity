@@ -2,42 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b8e2804-1b2f-4036-934e-8c7daccf0663" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/IO/ConsoleIOHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/DataTypes/EventType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Interfaces/IGameObserver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/PlayerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/asg_cliche.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BattleShip_Schwarz_Leonhardt/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/BattleShip.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BattleShip_Schwarz_Leonhardt/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/Player.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BattleShip_Schwarz_Leonhardt/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleField.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BattleShip_Schwarz_Leonhardt/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTracker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BattleShip_Schwarz_Leonhardt/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/ConsolePlayer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BattleShip_Schwarz_Leonhardt/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Coordinate.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BattleShip_Schwarz_Leonhardt/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Exceptions/AddShipException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BattleShip_Schwarz_Leonhardt/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/BattleshipFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BattleShip_Schwarz_Leonhardt/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Game.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BattleShip_Schwarz_Leonhardt/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Interfaces/IGameListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BattleShip_Schwarz_Leonhardt/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/SocketPlayer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BattleShip_Schwarz_Leonhardt/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/XYLengthBattleShip.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/BattleShip_Schwarz_Leonhardt/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Main.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/ValueObjects/Coordinate.java" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/DataTypes/Coordinate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Exceptions/AddShipException.java" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Exceptions/AddShipException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleField.java" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleField.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/BattleShip.java" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/BattleShip.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTracker.java" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTracker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTrackerTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_0_6_14.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_0_31_beta.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mockito_core_2_0_31_beta.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asg_cliche.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/FileHandling/ConfigReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/FileHandling/ConfigReader.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/BattleShip.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/BattleShip.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/Player.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/Player.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleField.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleField.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTracker.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTracker.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/ConsolePlayer.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/ConsolePlayer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/DataTypes/Coordinate.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/DataTypes/Coordinate.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/DataTypes/EventType.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/DataTypes/EventType.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Exceptions/AddShipException.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Exceptions/AddShipException.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/BattleshipFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/BattleshipFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/PlayerFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/PlayerFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Game.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Game.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Interfaces/IGameListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Interfaces/IGameListener.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Interfaces/IGameObserver.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Interfaces/IGameObserver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/SocketPlayer.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/SocketPlayer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/XYLengthBattleShip.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/XYLengthBattleShip.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/IO/ConsoleIOHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/IO/ConsoleIOHandler.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.directory" afterPath="$PROJECT_DIR$/.directory" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BattleShip_Schwarz_Leonhardt.iml" afterPath="$PROJECT_DIR$/BattleShip_Schwarz_Leonhardt.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/BattleshipFactory.java" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/BattleshipFactory.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/ConsolePlayer.java" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/ConsolePlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Game.java" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Game.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Interfaces/IGameListener.java" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Interfaces/IGameListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Main.java" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/Player.java" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/Player.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/SocketPlayer.java" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/SocketPlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/XYLengthBattleShip.java" afterPath="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/XYLengthBattleShip.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BattleShips.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,123 +55,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/Player.java">
+      <file leaf-file-name="BattleShipHealthTracker.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTracker.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding>
-                <element signature="e#858#859#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#1012#1013#0" expanded="true" />
-                <element signature="e#1817#1818#0" expanded="true" />
-                <element signature="e#1876#1877#0" expanded="true" />
-                <element signature="e#1922#1923#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsoleIOHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/IO/ConsoleIOHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConsolePlayer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/ConsolePlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="59" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
+              <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BattleShip.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/BattleShip.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/BattleShip.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+              <caret line="0" column="75" selection-start-line="0" selection-start-column="75" selection-end-line="0" selection-end-column="75" />
               <folding>
-                <element signature="e#967#968#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
+                <element signature="e#1060#1061#0" expanded="true" />
+                <element signature="e#1089#1090#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BattleShipHealthTracker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTracker.java">
+      <file leaf-file-name="XYLengthBattleShip.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/XYLengthBattleShip.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XYLengthBattleShip.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/XYLengthBattleShip.java">
+      <file leaf-file-name="BattleShipHealthTrackerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTrackerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7547649">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Game.java">
+      <file leaf-file-name="PlayerFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/PlayerFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddShipException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Exceptions/AddShipException.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.05263158">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="66" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="BattleField.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleField.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleField.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1968#1969#0" expanded="true" />
-                <element signature="e#2010#2011#0" expanded="true" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#1974#1975#0" expanded="false" />
+                <element signature="e#2016#2017#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlayerFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/PlayerFactory.java">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Game.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
-              <folding />
+              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -184,11 +152,17 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -216,24 +190,39 @@
         <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Exceptions/AddShipException.java" />
         <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Interfaces/IGameObserver.java" />
         <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Interfaces/IGameListener.java" />
-        <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTracker.java" />
         <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/BattleShip.java" />
         <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/Player.java" />
         <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/SocketPlayer.java" />
         <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/BattleshipFactory.java" />
         <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Main.java" />
         <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/IO/ConsoleIOHandler.java" />
-        <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Game.java" />
         <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/ConsolePlayer.java" />
         <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/XYLengthBattleShip.java" />
         <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleField.java" />
+        <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Game.java" />
         <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/PlayerFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTracker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTracker.java" />
+        <option value="$PROJECT_DIR$/test/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTrackerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="NamedScopeManager">
     <order />
@@ -267,7 +256,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -296,7 +284,87 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schwarz_leonhardt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="schwarz_leonhardt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Game" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -318,25 +386,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="schwarz_leonhardt" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="IO" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -362,29 +416,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="schwarz_leonhardt" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Interfaces" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -414,55 +450,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="schwarz_leonhardt" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exceptions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schwarz_leonhardt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Game" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataTypes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BattleShip_Schwarz_Leonhardt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -480,6 +472,28 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Tests">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="BattleShip_Schwarz_Leonhardt">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="test">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scratches" />
     </panes>
   </component>
@@ -488,18 +502,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Code/battleships" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/mockito-core-2.0.31-beta.jar!/" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.All in BattleShip_Schwarz_Leonhardt">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Main" />
@@ -600,6 +625,22 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -623,7 +664,7 @@
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/asg.cliche.jar" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/mockito-core-2.0.31-beta.jar" />
       <envs />
       <method />
     </configuration>
@@ -721,8 +762,30 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    <configuration default="false" name="All in BattleShip_Schwarz_Leonhardt" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="BattleShip_Schwarz_Leonhardt" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in BattleShip_Schwarz_Leonhardt" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -748,35 +811,42 @@
       <workItem from="1439843399406" duration="984000" />
       <workItem from="1439844947602" duration="24813000" />
       <workItem from="1439898805719" duration="15906000" />
+      <workItem from="1439948859758" duration="192000" />
+      <workItem from="1440014863470" duration="7032000" />
+      <workItem from="1440026172187" duration="2327000" />
+      <workItem from="1440028639412" duration="813000" />
+      <workItem from="1440029465730" duration="1451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41703000" />
+    <option name="totallyTimeSpent" value="53518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="0" width="1891" height="1084" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1698881" sideWeight="0.45565587" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1698881" sideWeight="0.44928306" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17192268" sideWeight="0.5188529" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2573754" sideWeight="0.38077536" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18006104" sideWeight="0.49548593" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17192268" sideWeight="0.4811471" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2573754" sideWeight="0.61922467" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.07629705" sideWeight="0.49814126" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18852894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25969198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35300103" sideWeight="0.7535847" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25940996" sideWeight="0.73765266" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -793,50 +863,190 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTracker.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/XYLengthBattleShip.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleField.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-            <element signature="e#2010#2011#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/DataTypes/Coordinate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Exceptions/AddShipException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1974#1975#0" expanded="false" />
+            <element signature="e#2016#2017#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/PlayerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#858#859#0" expanded="false" />
+            <element signature="e#890#891#0" expanded="false" />
+            <element signature="e#985#986#0" expanded="false" />
+            <element signature="e#1012#1013#0" expanded="false" />
+            <element signature="e#1698#1699#0" expanded="false" />
+            <element signature="e#1740#1741#0" expanded="false" />
+            <element signature="e#1876#1877#0" expanded="false" />
+            <element signature="e#1922#1923#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/IO/ConsoleIOHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/ConsolePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="59" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/BattleShip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/XYLengthBattleShip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Exceptions/AddShipException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1974#1975#0" expanded="false" />
+            <element signature="e#2016#2017#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/PlayerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#858#859#0" expanded="false" />
+            <element signature="e#890#891#0" expanded="false" />
+            <element signature="e#985#986#0" expanded="false" />
+            <element signature="e#1012#1013#0" expanded="false" />
+            <element signature="e#1698#1699#0" expanded="false" />
+            <element signature="e#1740#1741#0" expanded="false" />
+            <element signature="e#1876#1877#0" expanded="false" />
+            <element signature="e#1922#1923#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1974#1975#0" expanded="false" />
+            <element signature="e#2016#2017#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/DataTypes/Coordinate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
@@ -844,57 +1054,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/BattleShip.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/BattleShip.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/BattleshipFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/BattleshipFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/XYLengthBattleShip.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/XYLengthBattleShip.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BattleShip_Schwarz_Leonhardt.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/FileHandling/ConfigReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/FileHandling/ConfigReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.11749347">
           <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -905,83 +1104,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/DataTypes/EventType.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/DataTypes/EventType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Interfaces/IGameObserver.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Interfaces/IGameObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27376425">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Interfaces/IGameListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Interfaces/IGameListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/BattleshipFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/SocketPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-          <folding>
-            <element signature="e#478#479#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/DataTypes/Coordinate.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/DataTypes/Coordinate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/ConsolePlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="59" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
           <folding />
         </state>
       </provider>
@@ -990,92 +1137,282 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.71582735">
           <caret line="107" column="41" selection-start-line="107" selection-start-column="41" selection-end-line="107" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Exceptions/AddShipException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Exceptions/AddShipException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/PlayerFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/ConsolePlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18297331">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/SocketPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="78" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
-          <folding />
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleField.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/IO/ConsoleIOHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-            <element signature="e#2010#2011#0" expanded="true" />
-          </folding>
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/BattleShip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
-          <folding>
-            <element signature="e#967#968#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-          </folding>
+    <entry file="uml://MODULES/mdl-BattleShip_Schwarz_Leonhardt">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-BattleShip_Schwarz_Leonhardt</OriginalElement>
+          <nodes>
+            <node x="" y="">mdl-BattleShip_Schwarz_Leonhardt</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="139.0" y="14.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTracker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="69" selection-start-line="39" selection-start-column="69" selection-end-line="39" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1817#1818#0" expanded="true" />
-            <element signature="e#1876#1877#0" expanded="true" />
-            <element signature="e#1922#1923#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#858#859#0" expanded="false" />
+            <element signature="e#890#891#0" expanded="false" />
+            <element signature="e#985#986#0" expanded="false" />
+            <element signature="e#1012#1013#0" expanded="false" />
+            <element signature="e#1698#1699#0" expanded="false" />
+            <element signature="e#1740#1741#0" expanded="false" />
+            <element signature="e#1876#1877#0" expanded="false" />
+            <element signature="e#1922#1923#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/IO/ConsoleIOHandler.java">
+    <entry file="file://$PROJECT_DIR$/.idea/project-template.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/XYLengthBattleShip.java">
+    <entry file="file://$PROJECT_DIR$/BattleShip_Schwarz_Leonhardt.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7547649">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/BattleshipFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1974#1975#0" expanded="false" />
+            <element signature="e#2016#2017#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/internal/runners/JUnit38ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4473684">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57894737">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="23" selection-end-line="56" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.11.jar!/org/junit/runners/Suite.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63011694">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="e#2533#2534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/Factories/PlayerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/AbstractClasses/BattleShip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="75" selection-start-line="0" selection-start-column="75" selection-end-line="0" selection-end-column="75" />
+          <folding>
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1089#1090#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/XYLengthBattleShip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/fhtw/mes1/aet/java_intro/schwarz_leonhardt/Game/BattleShipHealthTrackerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05263158">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mockito-core-2.0.31-beta</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>BattleShip_Schwarz_Leonhardt</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>mockito-core-2.0.31-beta</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

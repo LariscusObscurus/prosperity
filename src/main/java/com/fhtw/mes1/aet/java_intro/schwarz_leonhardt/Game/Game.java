@@ -18,7 +18,6 @@ public class Game implements IGameObserver {
     boolean gameEnded = false;
     private Player player1 = null;
     private Player player2 = null;
-    private Player nextPlayer;
 
     public void setPlayer1(Player player) {
         this.player1 = player;
@@ -34,7 +33,7 @@ public class Game implements IGameObserver {
         if (player1 == null || player2 == null)
             throw new NullPointerException("Not enough players.");
 
-        nextPlayer = player1;
+        Player nextPlayer = player1;
         while (!gameEnded) {
             try {
                 NextMove(nextPlayer);
@@ -70,7 +69,7 @@ public class Game implements IGameObserver {
                 gameEnded = true;
                 Player player;
 
-                if (player1 != gameListener)
+                if (player1 == gameListener)
                     player = player1;
                  else
                     player = player2;
