@@ -1,9 +1,9 @@
 package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Factories;
 
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.AbstractClasses.BattleShip;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships.BattleShip;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.DataTypes.Coordinate;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Exceptions.AddShipException;
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.XYLengthBattleShip;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships.XYLengthBattleShip;
 
 import java.util.List;
 

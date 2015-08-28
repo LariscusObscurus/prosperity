@@ -1,9 +1,9 @@
-package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game;
+package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships;
 
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.AbstractClasses.BattleShip;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships.BattleShip;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.DataTypes.Coordinate;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships.BattleShipHealthTracker;
 import junit.framework.Assert;
-import junit.framework.TestCase;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -20,7 +20,7 @@ import static org.mockito.Mockito.*;
 public class BattleShipHealthTrackerTest {
 
     @Test
-    public void testIsHit() throws Exception {
+    public void testIsHit() {
         BattleShip mockedShip = mock(BattleShip.class);
         List<Coordinate> testCoordinates = new ArrayList<>(Arrays.asList(
                 new Coordinate(1,1),

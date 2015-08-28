@@ -1,6 +1,6 @@
 package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game;
 
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.AbstractClasses.BattleShip;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships.BattleShip;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.AbstractClasses.Player;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.DataTypes.Coordinate;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Exceptions.AddShipException;
@@ -14,13 +14,18 @@ import java.util.Map;
  */
 public class BattleField {
 
-    private Map<Coordinate, BattleShip> ships = new HashMap<>();
+    private Map<Coordinate, BattleShip> ships;
     private int battleFieldSize;
     private Player player;
 
     public BattleField(Player player, int battleFieldSize) {
+        this(player, battleFieldSize, new HashMap<>());
+    }
+
+    public BattleField(Player player, int battleFieldSize, Map<Coordinate, BattleShip> shipMap) {
         this.battleFieldSize = battleFieldSize;
         this.player = player;
+        this.ships = shipMap;
     }
 
     public void addShip(Coordinate startCoordinate, BattleShip battleShip) throws AddShipException {

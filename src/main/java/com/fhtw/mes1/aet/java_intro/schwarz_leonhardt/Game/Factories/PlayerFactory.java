@@ -1,6 +1,6 @@
 package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Factories;
 
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.AbstractClasses.BattleShip;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships.BattleShip;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.AbstractClasses.Player;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.BattleField;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.ConsolePlayer;

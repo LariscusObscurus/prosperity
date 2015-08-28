@@ -1,6 +1,5 @@
-package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game;
+package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships;
 
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.AbstractClasses.BattleShip;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.DataTypes.Coordinate;
 
 import java.util.ArrayList;
@@ -17,8 +16,8 @@ public class XYLengthBattleShip extends BattleShip {
 
     public XYLengthBattleShip(int shipId, int lengthX, int lengthY, Coordinate startCoordinate) {
         super(shipId, startCoordinate);
-        this.lengthX = lengthX;
-        this.lengthY = lengthY;
+        this.lengthX = lengthX <= 0 ? 1 : lengthX;
+        this.lengthY = lengthY <= 0 ? 1 : lengthY;
     }
 
     @Override

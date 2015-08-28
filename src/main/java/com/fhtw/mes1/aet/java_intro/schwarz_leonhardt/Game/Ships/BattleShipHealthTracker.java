@@ -1,6 +1,5 @@
-package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game;
+package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships;
 
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.AbstractClasses.BattleShip;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.DataTypes.Coordinate;
 
 import java.util.List;
@@ -16,7 +15,7 @@ import java.util.Observable;
  * @see Observable
  * @since 18.08.15
  */
-public class BattleShipHealthTracker {
+class BattleShipHealthTracker {
 
     BattleShip ship;
     boolean lazyLoading = false;
