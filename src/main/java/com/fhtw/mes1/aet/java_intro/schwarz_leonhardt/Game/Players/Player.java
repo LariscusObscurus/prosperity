@@ -1,4 +1,4 @@
-package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.AbstractClasses;
+package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Players;
 
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.BattleField;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.DataTypes.Coordinate;

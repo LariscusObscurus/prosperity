@@ -1,9 +1,9 @@
 package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game;
 
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships.BattleShip;
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.AbstractClasses.Player;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.DataTypes.Coordinate;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Exceptions.AddShipException;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Players.Player;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships.BattleShip;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -55,7 +55,7 @@ public class BattleField {
 
             if (allShipsDestroyed()) {
                 player.notifyVictory(coordinate);
-                return false;
+                return true;
             }
 
             player.notifyKill(coordinate);

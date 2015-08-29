@@ -1,4 +1,4 @@
-package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.FileHandling.DTO;
+package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.IO.FileHandling.DataTypes;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import java.util.List;
  * @author Leonhardt Schwarz <es15m009@technikum-wien.at>
  * @since 28.08.15
  */
-public class ShipConfigDTO {
+public class ShipParameters {
 
     private String shipType;
     private List<Integer> typeParams;

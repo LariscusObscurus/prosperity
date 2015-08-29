@@ -40,6 +40,11 @@ public abstract class BattleShip {
     }
 
     public boolean isDestroyed() {
+
         return destroyed;
+    }
+
+    public void setBattleShipHealthTracker(BattleShipHealthTracker battleShipHealthTracker) {
+        this.battleShipHealthTracker = battleShipHealthTracker;
     }
 }

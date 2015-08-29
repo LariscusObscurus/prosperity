@@ -1,12 +1,18 @@
 package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game;
 
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.AbstractClasses.Player;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.DataTypes.Coordinate;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.DataTypes.EventType;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Exceptions.AddShipException;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Factories.BattleshipFactory;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Interfaces.IGameListener;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Interfaces.IGameObserver;
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.IO.ConsoleIOHandler;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Players.Player;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships.BattleShip;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.IO.FileHandling.ConfigReader;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.IO.FileHandling.DataTypes.ShipParameters;
+import com.opencsv.CSVReader;
 
+import java.io.FileReader;
 import java.io.IOException;
 
 /**
@@ -33,6 +39,14 @@ public class Game implements IGameObserver {
         if (player1 == null || player2 == null)
             throw new NullPointerException("Not enough players.");
 
+        try {
+            addShips(player1);
+            addShips(player2);
+        } catch (IOException | AddShipException ex) {
+            printError(ex.getMessage());
+            return;
+        }
+
         Player nextPlayer = player1;
         while (!gameEnded) {
             try {
@@ -42,9 +56,21 @@ public class Game implements IGameObserver {
                 else
                     nextPlayer = player1;
             } catch (IOException ex) {
-                ConsoleIOHandler.printError(ex.getMessage());
+                printError(ex.getMessage());
             }
 
+        }
+    }
+
+    private void addShips(Player player) throws IOException, AddShipException {
+        FileReader fileReader = new FileReader(String.format("%s.csv", player.getName()));
+
+        ConfigReader configReader = new ConfigReader(new CSVReader(fileReader, ';'));
+
+        ShipParameters nextShip;
+        while ((nextShip = configReader.readNext()) != null) {
+            BattleShip ship = BattleshipFactory.getBattleship(nextShip);
+            player.getBattleField().addShip(ship.getStartCoordinate(), ship);
         }
     }
 
@@ -57,13 +83,13 @@ public class Game implements IGameObserver {
     public void update(IGameListener gameListener, EventType event, Coordinate coordinate) {
         switch (event) {
             case Hit:
-                ConsoleIOHandler.printGuessResult("Hit");
+                printGuessResult("Hit");
                 break;
             case Miss:
-                ConsoleIOHandler.printGuessResult("You missed.");
+                printGuessResult("You missed.");
                 break;
             case Kill:
-                ConsoleIOHandler.printGuessResult("Ship destroyed.");
+                printGuessResult("Ship destroyed.");
                 break;
             case Victory:
                 gameEnded = true;
@@ -74,8 +100,16 @@ public class Game implements IGameObserver {
                  else
                     player = player2;
 
-                ConsoleIOHandler.printGuessResult("Player " + player.getName() + " won the game.");
+                printGuessResult("Player " + player.getName() + " won the game.");
                 break;
         }
+    }
+
+    private void printGuessResult(String result) {
+        System.out.println(result);
+    }
+
+    private void printError(String message) {
+        System.out.println(message);
     }
 }

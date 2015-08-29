@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Main
+

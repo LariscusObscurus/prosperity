@@ -1,7 +1,6 @@
-package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.FileHandling;
+package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.IO.FileHandling;
 
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.FileHandling.DTO.ShipConfigDTO;
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.FileHandling.Exceptions.MalformedConfigException;
+import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.IO.FileHandling.DataTypes.ShipParameters;
 import com.opencsv.CSVReader;
 import junit.framework.Assert;
 import org.junit.Before;
@@ -24,6 +23,7 @@ public class ConfigReaderTest {
 
     private CSVReader mockReader;
     private ConfigReader testReader;
+
     @Before
     public void setUp() throws IOException {
         mockReader = mock(CSVReader.class);
@@ -37,9 +37,9 @@ public class ConfigReaderTest {
                 String[] rv;
 
                 if (count  == 0) {
-                    rv = new String[]{"XYLengthBattleShip","2","2","1","1"};
+                    rv = new String[]{"xy_length_battleship","2","2","1","1"};
                 } else {
-                    rv = new String[]{"CircularBattleShip","3","3","2","2"};
+                    rv = new String[]{"circular_battleship","3","3","2","2"};
                 }
 
                 count = (count + 1) % 2;
@@ -59,17 +59,17 @@ public class ConfigReaderTest {
     }
 
     @Test
-    public void testReadNext() throws Exception, MalformedConfigException {
-        ShipConfigDTO result =  testReader.readNext();
+    public void testReadNext() throws Exception {
+        ShipParameters result =  testReader.readNext();
 
-        Assert.assertEquals("XYLengthBattleShip", result.getShipType());
+        Assert.assertEquals("xy_length_battleship", result.getShipType());
 
         List<Integer> expectedList =Arrays.asList(2,2,1,1);
         Assert.assertEquals(expectedList, result.getTypeParams());
 
         result =  testReader.readNext();
 
-        Assert.assertEquals("CircularBattleShip", result.getShipType());
+        Assert.assertEquals("circular_battleship", result.getShipType());
 
         expectedList =Arrays.asList(3,3,2,2);
         Assert.assertEquals(expectedList, result.getTypeParams());

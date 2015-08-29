@@ -15,7 +15,7 @@ import java.util.Observable;
  * @see Observable
  * @since 18.08.15
  */
-class BattleShipHealthTracker {
+public class BattleShipHealthTracker {
 
     BattleShip ship;
     boolean lazyLoading = false;

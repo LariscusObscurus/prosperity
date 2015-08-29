@@ -4,7 +4,6 @@ package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Exceptions.AddShipException;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Factories.PlayerFactory;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Game;
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.IO.ConsoleIOHandler;
 
 import java.io.IOException;
 
@@ -19,7 +18,7 @@ public class Main {
             game.start();
         } catch (NullPointerException ex)
         {
-            ConsoleIOHandler.printError(ex.getMessage());
+            System.out.println(ex.getMessage());
         }
     }
 }

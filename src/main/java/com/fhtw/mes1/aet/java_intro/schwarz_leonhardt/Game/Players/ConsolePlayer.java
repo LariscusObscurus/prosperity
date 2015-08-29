@@ -1,4 +1,4 @@
-package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.IO;
+package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Players;
 
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.DataTypes.Coordinate;
 
@@ -8,16 +8,24 @@ import java.io.InputStreamReader;
 
 /**
  * @author Leonhardt Schwarz <es15m009@technikum-wien.at>
- * @since 18.08.15
+ * @since 17.08.15
  */
-public class ConsoleIOHandler {
+public class ConsolePlayer extends Player {
 
-    public static Coordinate getNextGuess(String name) throws IOException {
+
+    public ConsolePlayer(String name) {
+        super(name);
+    }
+
+    @Override
+    public Coordinate nextGuess() throws IOException {
+
         //System Console does not work in my IDE so this approach was used instead
-        if (name == null)
+        if (this.getName() == null)
             throw new NullPointerException("Name was null");
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.printf("%s Enter Guess -> ", name);
+        System.out.printf("%s Enter Guess -> ", this.getName());
         String guess = br.readLine();
         guess = guess.replaceAll("\\s+", "");
 
@@ -30,15 +38,6 @@ public class ConsoleIOHandler {
             return new Coordinate(x, y);
 
         throw new IOException("Invalid input");
-
-    }
-
-    public static void printGuessResult(String result) {
-        System.out.println(result);
-    }
-
-    public static void printError(String message) {
-        System.out.println(message);
     }
 
 }

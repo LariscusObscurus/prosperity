@@ -1,8 +1,6 @@
 package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships;
 
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships.BattleShip;
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.DataTypes.Coordinate;
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships.BattleShipHealthTracker;
 import junit.framework.Assert;
 import org.junit.Test;
 
@@ -10,7 +8,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 
 /**

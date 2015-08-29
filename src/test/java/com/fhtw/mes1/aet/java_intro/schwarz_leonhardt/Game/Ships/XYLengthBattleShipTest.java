@@ -1,7 +1,6 @@
 package com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships;
 
 import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.DataTypes.Coordinate;
-import com.fhtw.mes1.aet.java_intro.schwarz_leonhardt.Game.Ships.XYLengthBattleShip;
 import junit.framework.Assert;
 import org.junit.Test;
 
